@@ -1,0 +1,122 @@
+/* ********* */
+/* @FOOTER */
+/* ********* */
+
+.links{
+    background-color: $color_footer_scLinks;
+}
+.logoIdiomas{
+    background-color: $color_footer_scLogo;
+}
+.terminosSocial{
+    background-color: $color_footer_scTerminosSocial;
+}
+
+
+// margenes, espacios
+.links{
+    &__contenido{
+        padding: 2.5rem;
+        display : grid;
+        align-content: center;
+        justify-content: space-between;        
+        grid-template-columns: 5;
+        font-size: 1em;
+        .izq{
+            grid-column: 1/2;
+        }        
+        .centrIzq{
+            grid-column: 2/3;
+        }
+        .centrDr{
+            grid-column: 3/4;
+        }
+        .derech{
+            grid-column: 4/5;
+        }       
+        
+        .imgDerech{
+            grid-column: 5/6;
+        }
+
+    }
+}
+
+
+
+.logoIdiomas{
+    &__contenido{
+        padding: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.terminosSocial{
+    &__contenido{
+        padding: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        
+        &__terminosYcondiciones{     
+            column-count: 3;            
+            column-rule: 2px solid $color_barras_separadoras;  
+            column-gap: 50px; 
+            align-self: center;
+            
+            a{
+               display: block;
+               color : $color_footer_links;
+            }  
+            
+        }
+        
+    }
+}
+
+.titulo{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $color_footer_titulos;
+    margin-bottom: 30px;
+     
+}
+.centrado{
+    max-width: $anchoMax;
+    margin:0 auto;
+    padding: 10px;    
+}
+
+
+a{
+    text-decoration: none;
+    color:$color_footer_links;
+}
+
+li{
+    padding:5px;
+    margin-top:20px;
+    list-style: none;
+   
+    .titulo{        
+        padding-bottom: 20px;
+        
+    }
+}
+ul{
+    margin-block: 0;
+    padding-inline: 0;
+}
+figure{
+    margin-inline:0;
+}
+#idiomas{
+    padding: 5px;
+    height: 32px;
+    width: 150px;
+    align-self: center;
+
+    
+}
+.desplegable{
+    margin:0;
+}

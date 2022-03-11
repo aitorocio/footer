@@ -1,0 +1,43 @@
+/* ********* */
+/* @VARIABLES */
+/* ********* */
+
+// Footer
+// Colores
+
+$color_footer_scLinks :#ffffff;
+$color_footer_scLogo:#f3f3fd;
+$color_footer_scTerminosSocial:#c9ceea;
+$color_footer_links:#6e74a1;
+$color_footer_titulos:#172052;
+$color_barras_separadoras: #b6b9d4;
+
+// Tamaños
+/* son 1000px de ancho max para que se pueda ver el centrad del contenido del ejerccio
+debderia ser 1366px */
+$anchoMax : 1000px;
+
+// RRSS svg
+$rrss: (
+    facebook : "../assets/img/svg/facebook.svg",
+    twitter : "../assets/img/svg/twitter.svg",
+    linkedin : "../assets/img/svg/linkedin.svg",
+    pinterest : "../assets/img/svg/pinterest.svg",
+    youtube : "../assets/img/svg/youtube.svg",
+    instagram : "../assets/img/svg/instagram.svg", 
+    vimeo : "../assets/img/svg/vimeo.svg",
+    blog : "../assets/img/svg/blog.svg"
+);
+
+//RRSS links 
+$rrssLink: (
+    facebook : "https://www.facebook.com",
+    twitter : "https://www.twitter.com",
+    linkedin : "https://www.linkedin.com",
+    pinterest : "https://www.pinterest.com",
+    youtube : "https://www.youtube.com",
+    instagram : "https://www.instagram.com", 
+    vimeo : "https://www.vimeo.com",
+    blog : "https://www.blog.com"
+);
+
